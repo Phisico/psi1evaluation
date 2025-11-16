@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Access - Programação de SI</title>
+    <style>
+        /* CSS BÁSICO PARA O ESTILO SOLOLEARN */
+        body { font-family: Arial, sans-serif; background-color: #f4f7f6; color: #333; margin: 0; padding: 20px; }
+        .quiz-container { max-width: 800px; /* Aumentado para acomodar a imagem e título */ margin: 40px auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        h1 { color: #0056b3; text-align: center; margin-bottom: 25px; } /* Novo estilo para o título principal */
+        h2 { color: #007bff; margin-bottom: 20px; }
+        .header-section { text-align: center; margin-bottom: 30px; }
+        .header-section img { max-width: 720px; height: auto; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .question-box { margin-bottom: 25px; padding: 15px; border: 1px solid #ddd; border-radius: 6px; }
+        .option { display: block; background: #f9f9f9; padding: 10px; margin-top: 10px; border-radius: 4px; cursor: pointer; transition: background 0.2s; }
+        .option:hover { background: #e0f0ff; }
+        .result-screen { text-align: center; }
+        button { padding: 10px 15px; background-color: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; margin-top: 20px; }
+        button:hover { background-color: #218838; }
+        button:disabled { background-color: #ccc; cursor: not-allowed; }
+        .input-field { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        .selected { background-color: #ffe4b2 !important; border: 2px solid #ff9900; } /* Opção selecionada */
+        #confirm-button { background-color: #007bff; margin-left: 10px;}
+        #confirm-button:hover:not(:disabled) { background-color: #0056b3; }
+        #feedback { margin-top: 10px; font-weight: bold; }
+        .navigation-buttons { display: flex; justify-content: space-between; margin-top: 20px; }
+        .navigation-buttons button { margin: 0; }
+        #prev-button { background-color: #6c757d; }
+        #prev-button:hover:not(:disabled) { background-color: #5a6268; }
+    </style>
+</head>
+<body>
+
+<div class="quiz-container">
+    <div class="header-section">
+        <img id="header-image" src="" alt="Imagem alusiva a Bases de Dados"> 
+        <h1>Teste de verificação de conhecimentos à disciplina de PSI - 11º Ano GPSI</h1>
+    </div>
+
+    <div id="quiz">
+        <h2>A carregar Teste...</h2>
+    </div>
+    
+    <div id="results" class="result-screen" style="display:none;">
+        <h3>Teste Concluído!</h3>
+        <p>A sua pontuação: <strong id="score-display"></strong> de 20</p>
+        
+        <hr>
+        <h4>Registo de Pontuação</h4>
+        <p>Por favor, insira o seu nome para registar o resultado.</p>
+        <input type="text" id="student-name" class="input-field" placeholder="O Seu Nome Completo" required>
+        <button onclick="submitResults()">Registar Pontuação</button>
+        <p id="submit-message" style="margin-top: 10px; color: #007bff;"></p>
+    </div>
+</div>
+
+<script src="quiz.js"></script>
+<script>
+    // Carrega a imagem após o DOM carregar
+    window.onload = function() {
+        document.getElementById('header-image').src = 'https://www.aceinfoway.com/blog/wp-content/uploads/2020/03/best-database-to-work-with-in-2020.jpg'; // Imagem de exemplo
+        // Certifique-se que o quiz.js é chamado depois de definir a imagem, se houver dependência
+        displayQuestion(); // Chama a função de quiz.js para iniciar
+    };
+</script>
+
+</body>
+</html>
