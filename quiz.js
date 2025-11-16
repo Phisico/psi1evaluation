@@ -1,1 +1,263 @@
-const _0x53ae5f=_0x2ef5;(function(_0x47e7ff,_0x4a25f5){const _0x59d719=_0x2ef5,_0x3932ce=_0x47e7ff();while(!![]){try{const _0x13c8be=-parseInt(_0x59d719(0x141))/0x1+-parseInt(_0x59d719(0x182))/0x2+-parseInt(_0x59d719(0x142))/0x3*(parseInt(_0x59d719(0x128))/0x4)+parseInt(_0x59d719(0x16e))/0x5*(-parseInt(_0x59d719(0x187))/0x6)+-parseInt(_0x59d719(0x190))/0x7*(-parseInt(_0x59d719(0x1b2))/0x8)+-parseInt(_0x59d719(0x189))/0x9+parseInt(_0x59d719(0x168))/0xa;if(_0x13c8be===_0x4a25f5)break;else _0x3932ce['push'](_0x3932ce['shift']());}catch(_0x12b442){_0x3932ce['push'](_0x3932ce['shift']());}}}(_0x82d8,0x6a9e0));const GOOGLE_FORM_SUBMIT_URL=_0x53ae5f(0x1ae),NAME_FIELD_ID=_0x53ae5f(0x13e),SCORE_FIELD_ID=_0x53ae5f(0x148),SECRET_UNLOCK_CODE=_0x53ae5f(0x193),questions=[{'question':'Qual\x20o\x20nome\x20dado\x20a\x20uma\x20linha\x20numa\x20Tabela\x20de\x20Access?','options':[_0x53ae5f(0x19b),_0x53ae5f(0x18d),_0x53ae5f(0x17e),'Formulário'],'answer':_0x53ae5f(0x17e),'studentAnswer':null},{'question':_0x53ae5f(0x140),'options':['Tabela',_0x53ae5f(0x17e),_0x53ae5f(0x136),_0x53ae5f(0x19b)],'answer':_0x53ae5f(0x19b),'studentAnswer':null},{'question':'O\x20que\x20é\x20que\x20a\x20Estrutura\x20(ou\x20Design\x20View)\x20de\x20uma\x20Tabela\x20define?','options':['Os\x20dados\x20inseridos','O\x20tipo\x20de\x20dados\x20de\x20cada\x20Campo',_0x53ae5f(0x199),_0x53ae5f(0x130)],'answer':_0x53ae5f(0x166),'studentAnswer':null},{'question':_0x53ae5f(0x1b4),'options':['Validação',_0x53ae5f(0x159),_0x53ae5f(0x1ad),_0x53ae5f(0x18d)],'answer':_0x53ae5f(0x1ad),'studentAnswer':null},{'question':'O\x20que\x20define\x20a\x20unicidade\x20de\x20cada\x20linha\x20(registo)\x20numa\x20tabela?','options':[_0x53ae5f(0x132),_0x53ae5f(0x18c),'Chave\x20Primária',_0x53ae5f(0x17b)],'answer':_0x53ae5f(0x151),'studentAnswer':null},{'question':'A\x20Chave\x20Estrangeira\x20serve\x20para\x20estabelecer\x20uma...','options':[_0x53ae5f(0x1b1),_0x53ae5f(0x16f),_0x53ae5f(0x19d),'Cópia\x20de\x20segurança'],'answer':_0x53ae5f(0x16f),'studentAnswer':null},{'question':_0x53ae5f(0x179),'options':[_0x53ae5f(0x149),'Apenas\x20se\x20for\x20de\x20tipo\x20texto','Não,\x20nunca\x20pode\x20ser\x20nula',_0x53ae5f(0x196)],'answer':_0x53ae5f(0x13b),'studentAnswer':null},{'question':_0x53ae5f(0x19e),'options':[_0x53ae5f(0x157),_0x53ae5f(0x192),_0x53ae5f(0x1a4),'Numa\x20tabela\x20de\x20junção'],'answer':_0x53ae5f(0x192),'studentAnswer':null},{'question':_0x53ae5f(0x127),'options':['Aumentar\x20o\x20desempenho',_0x53ae5f(0x198),_0x53ae5f(0x19a),_0x53ae5f(0x129)],'answer':_0x53ae5f(0x198),'studentAnswer':null},{'question':_0x53ae5f(0x14e),'options':[_0x53ae5f(0x13d),_0x53ae5f(0x14b),_0x53ae5f(0x12d),_0x53ae5f(0x164)],'answer':'>\x200','studentAnswer':null},{'question':_0x53ae5f(0x14f),'options':[_0x53ae5f(0x1ab),_0x53ae5f(0x19f),'Quando\x20um\x20novo\x20registo\x20é\x20criado\x20e\x20o\x20campo\x20não\x20é\x20preenchido',_0x53ae5f(0x167)],'answer':'Quando\x20um\x20novo\x20registo\x20é\x20criado\x20e\x20o\x20campo\x20não\x20é\x20preenchido','studentAnswer':null},{'question':_0x53ae5f(0x134),'options':[_0x53ae5f(0x1a0),'Quando\x20a\x20Regra\x20de\x20Validação\x20não\x20é\x20cumprida',_0x53ae5f(0x18f),_0x53ae5f(0x186)],'answer':'Quando\x20a\x20Regra\x20de\x20Validação\x20não\x20é\x20cumprida','studentAnswer':null},{'question':_0x53ae5f(0x176),'options':['Análise\x20de\x20dados\x20complexa',_0x53ae5f(0x1a1),_0x53ae5f(0x14a),_0x53ae5f(0x1aa)],'answer':_0x53ae5f(0x14a),'studentAnswer':null},{'question':_0x53ae5f(0x171),'options':[_0x53ae5f(0x12e),_0x53ae5f(0x137),'Possibilidade\x20de\x20criar\x20consultas',_0x53ae5f(0x19c)],'answer':'Maior\x20segurança\x20e\x20controlo\x20sobre\x20a\x20entrada\x20de\x20dados','studentAnswer':null},{'question':_0x53ae5f(0x16b),'options':[_0x53ae5f(0x1a5),'As\x20regras\x20de\x20validação','A\x20área\x20onde\x20os\x20dados\x20dos\x20registos\x20são\x20exibidos','Os\x20botões\x20de\x20navegação'],'answer':_0x53ae5f(0x17f),'studentAnswer':null},{'question':_0x53ae5f(0x12a),'options':[_0x53ae5f(0x165),_0x53ae5f(0x13a),_0x53ae5f(0x170),'Imprimir\x20relatórios'],'answer':_0x53ae5f(0x13a),'studentAnswer':null},{'question':_0x53ae5f(0x16a),'options':['Um\x20Relatório',_0x53ae5f(0x144),_0x53ae5f(0x152),_0x53ae5f(0x12b)],'answer':_0x53ae5f(0x144),'studentAnswer':null},{'question':'O\x20\x27cálculo\x27\x20de\x20um\x20novo\x20campo\x20(ex:\x20Preço\x20*\x201.23)\x20deve\x20ser\x20feito\x20em\x20qual\x20objeto?','options':[_0x53ae5f(0x155),_0x53ae5f(0x131),_0x53ae5f(0x17a),_0x53ae5f(0x18d)],'answer':_0x53ae5f(0x18d),'studentAnswer':null},{'question':_0x53ae5f(0x174),'options':[_0x53ae5f(0x145),'Analisar\x20as\x20relações\x20da\x20base\x20de\x20dados',_0x53ae5f(0x1b3),'Inserir\x20novos\x20registos'],'answer':'Apresentar\x20e\x20imprimir\x20dados\x20de\x20forma\x20formatada\x20e\x20organizada','studentAnswer':null},{'question':_0x53ae5f(0x143),'options':[_0x53ae5f(0x160),_0x53ae5f(0x195),'Cabeçalho\x20de\x20Relatório',_0x53ae5f(0x138)],'answer':_0x53ae5f(0x195),'studentAnswer':null}];let currentQuestionIndex=0x0,currentSelectedOption=null,isTestBlocked=![];function _0x82d8(){const _0x88633b=['Consulta\x20SQL','449104cVzYyT','Apresentar\x20e\x20imprimir\x20dados\x20de\x20forma\x20formatada\x20e\x20organizada','Uma\x20base\x20de\x20dados\x20bem\x20estruturada\x20minimiza\x20a...','remove','forEach','blur','Qual\x20é\x20o\x20principal\x20objetivo\x20de\x20uma\x20Regra\x20de\x20Validação?','112IMOjGJ','Esconder\x20registos','Qual\x20é\x20o\x20principal\x20propósito\x20de\x20uma\x20Consulta\x20de\x20Seleção\x20no\x20Access?','Uma\x20Chave\x20Estrangeira','unlock-button','>\x200','Melhor\x20desempenho','flashing','As\x20chaves\x20externas','Formulário','Chave\x20Estrangeira','body','Se\x20o\x20\x27Texto\x20de\x20Validação\x27\x20for\x20\x27Data\x20Inválida\x27,\x20quando\x20é\x20que\x20esta\x20mensagem\x20aparece?','mouseleave','Campo\x20Chave','Maior\x20segurança\x20e\x20controlo\x20sobre\x20a\x20entrada\x20de\x20dados','Detalhe','addEventListener','Filtrar,\x20ordenar\x20e\x20resumir\x20dados','Não,\x20nunca\x20pode\x20ser\x20nula','overflow','NOT\x20NULL','entry.2112855462','textContent','Qual\x20o\x20nome\x20dado\x20a\x20uma\x20coluna\x20numa\x20Tabela\x20de\x20Access?','43728JJyCon','79059UvDevR','Num\x20Relatório,\x20qual\x20Secção\x20é\x20usada\x20para\x20exibir\x20totais\x20e\x20resumos\x20para\x20todo\x20o\x20documento?','Critérios\x20(Criteria)','Recolher\x20dados\x20do\x20utilizador','confirm-button','feedback','entry.656499958','Sim,\x20em\x20relações\x201:N','Introdução\x20e\x20visualização\x20de\x20dados\x20amigável','<\x20100','A\x20registar...','block-overlay','Qual\x20das\x20seguintes\x20regras\x20de\x20validação\x20impede\x20que\x20um\x20campo\x20\x27Idade\x27\x20receba\x20um\x20valor\x20negativo?','O\x20valor\x20\x27Dados\x20por\x20Omissão\x27\x20(Default\x20Value)\x20é\x20inserido...','studentAnswer','Chave\x20Primária','Um\x20Formulário','catch','add','Tabela','preventDefault','Na\x20tabela\x20do\x20lado\x20\x27um\x27','none','Integridade','trim','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22question-box\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h4>Pergunta\x20','>&lt;&lt;\x20Anterior</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22confirm-button\x22\x20onclick=\x22confirmAnswer()\x22\x20','style','#results\x20button','querySelectorAll','Cabeçalho\x20de\x20Página','no-cors','then','length','IS\x20NUMERIC','Alterar\x20dados\x20permanentemente','O\x20tipo\x20de\x20dados\x20de\x20cada\x20Campo','Após\x20a\x20submissão\x20do\x20formulário','21648960utHUYZ','options','Se\x20quiser\x20ver\x20apenas\x20os\x20registos\x20do\x20Porto,\x20o\x20que\x20deve\x20usar\x20na\x20Consulta?','No\x20Modo\x20de\x20Estrutura\x20de\x20um\x20Formulário,\x20o\x20que\x20representa\x20a\x20\x27Secção\x20de\x20Detalhe\x27?','error','display','2370hKgilp','Relação\x20entre\x20Tabelas','Criar\x20novas\x20tabelas','Qual\x20a\x20Vantagem\x20principal\x20de\x20usar\x20um\x20formulário\x20em\x20vez\x20de\x20editar\x20diretamente\x20a\x20tabela?','unlock-code-input','\x20registada\x20com\x20sucesso\x20para\x20','Qual\x20a\x20função\x20principal\x20de\x20um\x20Relatório\x20no\x20Access?','\x20de\x20','Os\x20Formulários\x20são\x20usados\x20principalmente\x20para...','getElementById','innerHTML','Uma\x20Chave\x20Primária\x20pode\x20ser\x20nula\x20(vazia)?','Relatório','Validação','focus','✅\x20Pontuação\x20de\x20','Registo','A\x20área\x20onde\x20os\x20dados\x20dos\x20registos\x20são\x20exibidos','classList','Confirmar\x20e\x20Terminar\x20Teste\x20>>','229718AlEypF','.option','❌\x20Erro\x20ao\x20registar.\x20Tente\x20novamente\x20ou\x20informe\x20o\x20professor.','</div>','Ao\x20fechar\x20o\x20Access','9678PYQZVP','querySelector','7172577ygBtls','❌\x20Código\x20incorreto.\x20Tente\x20novamente.','score-display','Dados\x20por\x20Omissão','Consulta','</h4>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p><strong>','Quando\x20o\x20tipo\x20de\x20dados\x20é\x20incorreto','91qToARX','Confirmar\x20e\x20Próxima\x20>>','Na\x20tabela\x20do\x20lado\x20\x27muitos\x27','a3379bc','score','Rodapé\x20de\x20Grupo','Sim,\x20desde\x20que\x20a\x20tabela\x20esteja\x20vazia','selected','Garantir\x20a\x20precisão\x20e\x20consistência\x20dos\x20dados','Os\x20Relatórios\x20a\x20gerar','Gerar\x20relatórios\x20automáticos','Campo','Geração\x20de\x20gráficos','Formatação\x20de\x20dados','Numa\x20relação\x201:N\x20(um\x20para\x20muitos),\x20onde\x20se\x20deve\x20colocar\x20a\x20Chave\x20Estrangeira?','Quando\x20o\x20campo\x20fica\x20vazio','Sempre\x20que\x20o\x20utilizador\x20clica\x20no\x20campo','Imprimir\x20dados\x20formatados','value','append','Em\x20ambas\x20as\x20tabelas','O\x20título\x20e\x20os\x20logótipos','\x22\x20data-value=\x22','Erro\x20ao\x20submeter:','answer','disabled','Automatizar\x20cálculos','Quando\x20o\x20utilizador\x20clica\x20duas\x20vezes\x20no\x20campo','student-name','Redundância','https://docs.google.com/forms/d/e/1FAIpQLSen6fYSguq2ryvKriyO0Hfvf5G4XG2T82CLFM1bUTLJijhe5g/formResponse','results','Enter'];_0x82d8=function(){return _0x88633b;};return _0x82d8();}const quizDiv=document[_0x53ae5f(0x177)]('quiz'),resultsDiv=document[_0x53ae5f(0x177)](_0x53ae5f(0x1af)),scoreDisplay=document[_0x53ae5f(0x177)](_0x53ae5f(0x18b)),submitMessage=document[_0x53ae5f(0x177)]('submit-message'),blockOverlay=document[_0x53ae5f(0x177)](_0x53ae5f(0x14d)),unlockButton=document[_0x53ae5f(0x177)](_0x53ae5f(0x12c)),unlockCodeInput=document['getElementById'](_0x53ae5f(0x172)),unlockFeedback=document['getElementById']('unlock-feedback');function blockTest(){const _0x3b9e3f=_0x53ae5f;currentQuestionIndex<questions[_0x3b9e3f(0x163)]&&(isTestBlocked=!![],blockOverlay[_0x3b9e3f(0x15d)][_0x3b9e3f(0x16d)]='flex',blockOverlay[_0x3b9e3f(0x180)][_0x3b9e3f(0x154)](_0x3b9e3f(0x12f)),document[_0x3b9e3f(0x133)][_0x3b9e3f(0x15d)][_0x3b9e3f(0x13c)]='hidden',unlockCodeInput[_0x3b9e3f(0x1a2)]='',unlockFeedback[_0x3b9e3f(0x13f)]='',unlockCodeInput[_0x3b9e3f(0x17c)]());}function attemptUnlock(){const _0x5c44ea=_0x53ae5f,_0x5de50f=unlockCodeInput[_0x5c44ea(0x1a2)][_0x5c44ea(0x15a)]();_0x5de50f===SECRET_UNLOCK_CODE?unlockTest():(unlockFeedback[_0x5c44ea(0x13f)]=_0x5c44ea(0x18a),unlockCodeInput[_0x5c44ea(0x1a2)]='',unlockCodeInput[_0x5c44ea(0x17c)]());}function unlockTest(){const _0x40c209=_0x53ae5f;isTestBlocked=![],blockOverlay[_0x40c209(0x180)]['remove'](_0x40c209(0x12f)),blockOverlay[_0x40c209(0x15d)][_0x40c209(0x16d)]=_0x40c209(0x158),document[_0x40c209(0x133)][_0x40c209(0x15d)][_0x40c209(0x13c)]='',unlockCodeInput[_0x40c209(0x1a2)]='',unlockFeedback[_0x40c209(0x13f)]='',displayQuestion();}function setupFocusDetection(){const _0x4ed368=_0x53ae5f;window[_0x4ed368(0x139)](_0x4ed368(0x126),blockTest),document[_0x4ed368(0x139)](_0x4ed368(0x135),blockTest),unlockButton[_0x4ed368(0x139)]('click',attemptUnlock),unlockCodeInput[_0x4ed368(0x139)]('keydown',function(_0x5ef56f){const _0x1d85a8=_0x4ed368;_0x5ef56f['key']===_0x1d85a8(0x1b0)&&(_0x5ef56f[_0x1d85a8(0x156)](),attemptUnlock());});}function displayQuestion(){const _0x1d32a3=_0x53ae5f;if(isTestBlocked){blockTest();return;}if(currentQuestionIndex>=questions[_0x1d32a3(0x163)]){calculateFinalScore(),showResults();return;}const _0x19824e=questions[currentQuestionIndex];currentSelectedOption=_0x19824e[_0x1d32a3(0x150)];let _0x403426=_0x1d32a3(0x15b)+(currentQuestionIndex+0x1)+_0x1d32a3(0x175)+questions[_0x1d32a3(0x163)]+_0x1d32a3(0x18e)+_0x19824e['question']+'</strong></p>\x0a\x20\x20\x20\x20';_0x19824e[_0x1d32a3(0x169)][_0x1d32a3(0x1b6)](_0x12a4b9=>{const _0x25b1e7=_0x1d32a3,_0x39a05a=_0x12a4b9===_0x19824e['studentAnswer']?_0x25b1e7(0x197):'';_0x403426+='<div\x20class=\x22option\x20'+_0x39a05a+_0x25b1e7(0x1a6)+_0x12a4b9+'\x22\x20onclick=\x22selectOption(this,\x20\x27'+_0x12a4b9+'\x27)\x22>'+_0x12a4b9+_0x25b1e7(0x185);});let _0x2bf1b2=currentQuestionIndex===questions[_0x1d32a3(0x163)]-0x1?_0x1d32a3(0x181):_0x1d32a3(0x191);_0x403426+='</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22feedback\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22navigation-buttons\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22prev-button\x22\x20onclick=\x22navigateQuestion(-1)\x22\x20'+(currentQuestionIndex===0x0?'disabled':'')+_0x1d32a3(0x15c)+(!_0x19824e[_0x1d32a3(0x150)]?_0x1d32a3(0x1a9):'')+'>'+_0x2bf1b2+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>',quizDiv[_0x1d32a3(0x178)]=_0x403426;}function selectOption(_0xa3e15b,_0x1c27c5){const _0x16d6ed=_0x53ae5f;document[_0x16d6ed(0x15f)](_0x16d6ed(0x183))[_0x16d6ed(0x1b6)](_0x30a26b=>{const _0x435e60=_0x16d6ed;_0x30a26b[_0x435e60(0x180)][_0x435e60(0x1b5)]('selected');}),_0xa3e15b[_0x16d6ed(0x180)][_0x16d6ed(0x154)](_0x16d6ed(0x197)),currentSelectedOption=_0x1c27c5,questions[currentQuestionIndex][_0x16d6ed(0x150)]=_0x1c27c5,document[_0x16d6ed(0x177)](_0x16d6ed(0x146))[_0x16d6ed(0x1a9)]=![],document[_0x16d6ed(0x177)](_0x16d6ed(0x147))['textContent']='';}function confirmAnswer(){navigateQuestion(0x1);}function navigateQuestion(_0xf73333){const _0x55a6fc=_0x53ae5f;if(isTestBlocked){blockTest();return;}currentQuestionIndex+=_0xf73333;if(currentQuestionIndex<0x0)currentQuestionIndex=0x0;else{if(currentQuestionIndex>=questions[_0x55a6fc(0x163)]){calculateFinalScore(),showResults();return;}}displayQuestion();}function _0x2ef5(_0x2d6300,_0x4668ef){const _0x82d845=_0x82d8();return _0x2ef5=function(_0x2ef5fa,_0x4acf4d){_0x2ef5fa=_0x2ef5fa-0x126;let _0x168a43=_0x82d845[_0x2ef5fa];return _0x168a43;},_0x2ef5(_0x2d6300,_0x4668ef);}function calculateFinalScore(){const _0x138cf3=_0x53ae5f;let _0xe520b3=0x0;questions[_0x138cf3(0x1b6)](_0x39cd03=>{const _0x519721=_0x138cf3;_0x39cd03[_0x519721(0x150)]===_0x39cd03[_0x519721(0x1a8)]&&_0xe520b3++;}),window['score']=_0xe520b3;}function showResults(){const _0x33299d=_0x53ae5f;quizDiv['style']['display']=_0x33299d(0x158),resultsDiv[_0x33299d(0x15d)][_0x33299d(0x16d)]='block',scoreDisplay[_0x33299d(0x13f)]=window[_0x33299d(0x194)];}function submitResults(){const _0x2bf3ab=_0x53ae5f,_0x4272de=document['getElementById'](_0x2bf3ab(0x1ac))[_0x2bf3ab(0x1a2)][_0x2bf3ab(0x15a)]();if(_0x4272de===''){submitMessage[_0x2bf3ab(0x13f)]='Por\x20favor,\x20preencha\x20o\x20seu\x20nome.';return;}const _0x315c7d=GOOGLE_FORM_SUBMIT_URL,_0x387b75=new FormData();_0x387b75[_0x2bf3ab(0x1a3)](NAME_FIELD_ID,_0x4272de),_0x387b75[_0x2bf3ab(0x1a3)](SCORE_FIELD_ID,window['score']),submitMessage[_0x2bf3ab(0x13f)]=_0x2bf3ab(0x14c),document[_0x2bf3ab(0x188)](_0x2bf3ab(0x15e))['disabled']=!![],fetch(_0x315c7d,{'method':'POST','mode':_0x2bf3ab(0x161),'body':_0x387b75})[_0x2bf3ab(0x162)](()=>{const _0x3a7257=_0x2bf3ab;submitMessage[_0x3a7257(0x13f)]=_0x3a7257(0x17d)+window[_0x3a7257(0x194)]+_0x3a7257(0x173)+_0x4272de+'!',document[_0x3a7257(0x177)]('student-name')['disabled']=!![];})[_0x2bf3ab(0x153)](_0x34f399=>{const _0x25fb92=_0x2bf3ab;console[_0x25fb92(0x16c)](_0x25fb92(0x1a7),_0x34f399),submitMessage['textContent']=_0x25fb92(0x184),document[_0x25fb92(0x188)](_0x25fb92(0x15e))['disabled']=![];});}setupFocusDetection();
+// --- DADOS DE SUBMISSÃO DO GOOGLE FORM ---
+const GOOGLE_FORM_SUBMIT_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSen6fYSguq2ryvKriyO0Hfvf5G4XG2T82CLFM1bUTLJijhe5g/formResponse';
+const NAME_FIELD_ID = 'entry.2112855462';
+const SCORE_FIELD_ID = 'entry.656499958';
+
+// --- CÓDIGO DE SEGURANÇA ---
+const SECRET_UNLOCK_CODE = 'a3379bc'; 
+
+// --- 1. CONJUNTO COMPLETO DE 20 PERGUNTAS ---
+const questions = [
+    // 4 Perguntas: Tabelas & Estrutura
+    { question: "Qual o nome dado a uma linha numa Tabela de Access?", options: ["Campo", "Consulta", "Registo", "Formulário"], answer: "Registo", studentAnswer: null },
+    { question: "Qual o nome dado a uma coluna numa Tabela de Access?", options: ["Tabela", "Registo", "Campo Chave", "Campo"], answer: "Campo", studentAnswer: null },
+    { question: "O que é que a Estrutura (ou Design View) de uma Tabela define?", options: ["Os dados inseridos", "O tipo de dados de cada Campo", "Os Relatórios a gerar", "As chaves externas"], answer: "O tipo de dados de cada Campo", studentAnswer: null },
+    { question: "Uma base de dados bem estruturada minimiza a...", options: ["Validação", "Integridade", "Redundância", "Consulta"], answer: "Redundância", studentAnswer: null },
+    
+    // 4 Perguntas: Chave Primária/Estrangeira
+    { question: "O que define a unicidade de cada linha (registo) numa tabela?", options: ["Chave Estrangeira", "Dados por Omissão", "Chave Primária", "Validação"], answer: "Chave Primária", studentAnswer: null },
+    { question: "A Chave Estrangeira serve para estabelecer uma...", options: ["Consulta SQL", "Relação entre Tabelas", "Formatação de dados", "Cópia de segurança"], answer: "Relação entre Tabelas", studentAnswer: null },
+    { question: "Uma Chave Primária pode ser nula (vazia)?", options: ["Sim, em relações 1:N", "Apenas se for de tipo texto", "Não, nunca pode ser nula", "Sim, desde que a tabela esteja vazia"], answer: "Não, nunca pode ser nula", studentAnswer: null },
+    { question: "Numa relação 1:N (um para muitos), onde se deve colocar a Chave Estrangeira?", options: ["Na tabela do lado 'um'", "Na tabela do lado 'muitos'", "Em ambas as tabelas", "Numa tabela de junção"], answer: "Na tabela do lado 'muitos'", studentAnswer: null },
+
+    // 4 Perguntas: Dados por Omissão e Validação
+    { question: "Qual é o principal objetivo de uma Regra de Validação?", options: ["Aumentar o desempenho", "Garantir a precisão e consistência dos dados", "Gerar relatórios automáticos", "Esconder registos"], answer: "Garantir a precisão e consistência dos dados", studentAnswer: null },
+    { question: "Qual das seguintes regras de validação impede que um campo 'Idade' receba um valor negativo?", options: ["NOT NULL", "< 100", "> 0", "IS NUMERIC"], answer: "> 0", studentAnswer: null },
+    { question: "O valor 'Dados por Omissão' (Default Value) é inserido...", options: ["Quando o utilizador clica duas vezes no campo", "Quando o campo fica vazio", "Quando um novo registo é criado e o campo não é preenchido", "Após a submissão do formulário"], answer: "Quando um novo registo é criado e o campo não é preenchido", studentAnswer: null },
+    { question: "Se o 'Texto de Validação' for 'Data Inválida', quando é que esta mensagem aparece?", options: ["Sempre que o utilizador clica no campo", "Quando a Regra de Validação não é cumprida", "Quando o tipo de dados é incorreto", "Ao fechar o Access"], answer: "Quando a Regra de Validação não é cumprida", studentAnswer: null },
+    
+    // 3 Perguntas: Formulários
+    { question: "Os Formulários são usados principalmente para...", options: ["Análise de dados complexa", "Imprimir dados formatados", "Introdução e visualização de dados amigável", "Automatizar cálculos"], answer: "Introdução e visualização de dados amigável", studentAnswer: null },
+    { question: "Qual a Vantagem principal de usar um formulário em vez de editar diretamente a tabela?", options: ["Melhor desempenho", "Maior segurança e controlo sobre a entrada de dados", "Possibilidade de criar consultas", "Geração de gráficos"], answer: "Maior segurança e controlo sobre a entrada de dados", studentAnswer: null },
+    { question: "No Modo de Estrutura de um Formulário, o que representa a 'Secção de Detalhe'?", options: ["O título e os logótipos", "As regras de validação", "A área onde os dados dos registos são exibidos", "Os botões de navegação"], answer: "A área onde os dados dos registos são exibidos", studentAnswer: null },
+
+    // 3 Perguntas: Consultas (Queries)
+    { question: "Qual é o principal propósito de uma Consulta de Seleção no Access?", options: ["Alterar dados permanentemente", "Filtrar, ordenar e resumir dados", "Criar novas tabelas", "Imprimir relatórios"], answer: "Filtrar, ordenar e resumir dados", studentAnswer: null },
+    { question: "Se quiser ver apenas os registos do Porto, o que deve usar na Consulta?", options: ["Um Relatório", "Critérios (Criteria)", "Um Formulário", "Uma Chave Estrangeira"], answer: "Critérios (Criteria)", studentAnswer: null },
+    { question: "O 'cálculo' de um novo campo (ex: Preço * 1.23) deve ser feito em qual objeto?", options: ["Tabela", "Formulário", "Relatório", "Consulta"], answer: "Consulta", studentAnswer: null },
+
+    // 2 Perguntas: Relatórios
+    { question: "Qual a função principal de um Relatório no Access?", options: ["Recolher dados do utilizador", "Analisar as relações da base de dados", "Apresentar e imprimir dados de forma formatada e organizada", "Inserir novos registos"], answer: "Apresentar e imprimir dados de forma formatada e organizada", studentAnswer: null },
+    { question: "Num Relatório, qual Secção é usada para exibir totais e resumos para todo o documento?", options: ["Cabeçalho de Página", "Rodapé de Grupo", "Cabeçalho de Relatório", "Detalhe"], answer: "Rodapé de Grupo", studentAnswer: null }
+];
+
+// --- VARIÁVEIS DE ESTADO E SEGURANÇA ---
+let currentQuestionIndex = 0;
+let currentSelectedOption = null; 
+let isTestBlocked = false; // Estado do bloqueio
+
+const quizDiv = document.getElementById('quiz');
+const resultsDiv = document.getElementById('results');
+const scoreDisplay = document.getElementById('score-display');
+const submitMessage = document.getElementById('submit-message');
+
+const blockOverlay = document.getElementById('block-overlay');
+const unlockButton = document.getElementById('unlock-button');
+const unlockCodeInput = document.getElementById('unlock-code-input');
+const unlockFeedback = document.getElementById('unlock-feedback');
+
+// --- FUNÇÕES DE SEGURANÇA ---
+
+/**
+ * Bloqueia o teste, tornando a overlay visível e iniciando o flash.
+ */
+function blockTest() {
+    // Bloqueia apenas se o teste estiver a decorrer (ainda não terminou)
+    if (currentQuestionIndex < questions.length) { 
+        isTestBlocked = true;
+        blockOverlay.style.display = 'flex';
+        // Adiciona a classe para iniciar a animação de flash
+        blockOverlay.classList.add('flashing'); 
+        document.body.style.overflow = 'hidden'; 
+        // Limpa e foca o campo para o professor
+        unlockCodeInput.value = '';
+        unlockFeedback.textContent = '';
+        unlockCodeInput.focus();
+    }
+}
+
+/**
+ * Tenta desbloquear o teste usando o código.
+ */
+function attemptUnlock() {
+    const enteredCode = unlockCodeInput.value.trim();
+    
+    if (enteredCode === SECRET_UNLOCK_CODE) {
+        unlockTest();
+    } else {
+        unlockFeedback.textContent = '❌ Código incorreto. Tente novamente.';
+        unlockCodeInput.value = ''; // Limpa o campo
+        unlockCodeInput.focus();
+    }
+}
+
+/**
+ * Desbloqueia o teste (chamado por attemptUnlock se o código for correto).
+ */
+function unlockTest() {
+    isTestBlocked = false;
+    // Remove a classe para parar a animação
+    blockOverlay.classList.remove('flashing'); 
+    blockOverlay.style.display = 'none';
+    document.body.style.overflow = '';
+    unlockCodeInput.value = '';
+    unlockFeedback.textContent = '';
+    // Recarrega a questão atual para garantir que o estado visual é restaurado
+    displayQuestion(); 
+}
+
+/**
+ * Configura os event listeners para detetar perda de foco e o desbloqueio.
+ */
+function setupFocusDetection() {
+    // 1. EVENTO DE PERDA DE FOCO (Sair da aba/janela)
+    window.addEventListener('blur', blockTest);
+
+    // 2. NOVO: Evento de MOUSE LEAVING (Sair da área da janela)
+    //document.addEventListener('mouseleave', blockTest); 
+    
+    // 3. AÇÃO DE DESBLOQUEIO MANUAL (Botão "DESBLOQUEAR")
+    unlockButton.addEventListener('click', attemptUnlock);
+    
+    // 4. Permite desbloqueio via tecla Enter
+    unlockCodeInput.addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            event.preventDefault(); 
+            attemptUnlock();
+        }
+    });
+}
+// --- 2. FUNÇÕES DE LÓGICA DO TESTE ---
+
+function displayQuestion() {
+    // Verifica e impõe o bloqueio se estiver ativo
+    if (isTestBlocked) {
+        blockTest();
+        return;
+    }
+
+    if (currentQuestionIndex >= questions.length) {
+        calculateFinalScore();
+        showResults();
+        return;
+    }
+
+    const q = questions[currentQuestionIndex];
+    currentSelectedOption = q.studentAnswer;
+
+    let html = `
+        <div class="question-box">
+            <h4>Pergunta ${currentQuestionIndex + 1} de ${questions.length}</h4>
+            <p><strong>${q.question}</strong></p>
+    `;
+    
+    q.options.forEach(option => {
+        const isSelected = option === q.studentAnswer ? 'selected' : '';
+        html += `<div class="option ${isSelected}" data-value="${option}" onclick="selectOption(this, '${option}')">${option}</div>`;
+    });
+
+    let confirmButtonText = (currentQuestionIndex === questions.length - 1) ? 
+        'Confirmar e Terminar Teste >>' : 
+        'Confirmar e Próxima >>';
+
+    html += `</div>
+        <div id="feedback"></div>
+        <div class="navigation-buttons">
+            <button id="prev-button" onclick="navigateQuestion(-1)" ${currentQuestionIndex === 0 ? 'disabled' : ''}>&lt;&lt; Anterior</button>
+            <button id="confirm-button" onclick="confirmAnswer()" ${!q.studentAnswer ? 'disabled' : ''}>${confirmButtonText}</button>
+        </div>`;
+        
+    quizDiv.innerHTML = html;
+}
+
+function selectOption(element, value) {
+    document.querySelectorAll('.option').forEach(opt => {
+        opt.classList.remove('selected');
+    });
+    
+    element.classList.add('selected');
+    currentSelectedOption = value;
+
+    questions[currentQuestionIndex].studentAnswer = value;
+    
+    document.getElementById('confirm-button').disabled = false;
+    
+    document.getElementById('feedback').textContent = '';
+}
+
+function confirmAnswer() {
+    navigateQuestion(1);
+}
+
+function navigateQuestion(step) {
+    // Verifica bloqueio antes de avançar/retroceder
+    if (isTestBlocked) {
+        blockTest();
+        return;
+    }
+    
+    currentQuestionIndex += step;
+    
+    if (currentQuestionIndex < 0) {
+        currentQuestionIndex = 0;
+    } else if (currentQuestionIndex >= questions.length) {
+        calculateFinalScore();
+        showResults();
+        return;
+    }
+    
+    displayQuestion();
+}
+
+function calculateFinalScore() {
+    let finalScore = 0;
+    questions.forEach(q => {
+        if (q.studentAnswer === q.answer) {
+            finalScore++;
+        }
+    });
+    window.score = finalScore;
+}
+
+function showResults() {
+    quizDiv.style.display = 'none';
+    resultsDiv.style.display = 'block';
+    scoreDisplay.textContent = window.score;
+}
+
+function submitResults() {
+    const name = document.getElementById('student-name').value.trim();
+    if (name === "") {
+        submitMessage.textContent = "Por favor, preencha o seu nome.";
+        return;
+    }
+    
+    const finalSubmitURL = GOOGLE_FORM_SUBMIT_URL; 
+    
+    const data = new FormData();
+    data.append(NAME_FIELD_ID, name);
+    data.append(SCORE_FIELD_ID, window.score); 
+    
+    submitMessage.textContent = "A registar...";
+    document.querySelector('#results button').disabled = true;
+
+    fetch(finalSubmitURL, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: data
+    })
+    .then(() => {
+        submitMessage.textContent = `✅ Pontuação de ${window.score} registada com sucesso para ${name}!`;
+        document.getElementById('student-name').disabled = true;
+    })
+    .catch(error => {
+        console.error('Erro ao submeter:', error);
+        submitMessage.textContent = "❌ Erro ao registar. Tente novamente ou informe o professor.";
+        document.querySelector('#results button').disabled = false;
+    });
+}
+
+// --- 3. INICIALIZAÇÃO ---
+setupFocusDetection(); 
+// NOTA: A chamada displayQuestion() deve ser gerida pelo script inline no index.html 
+// para coordenar com o carregamento da imagem de cabeçalho.
