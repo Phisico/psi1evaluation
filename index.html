@@ -4,68 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste de Access - Programação de SI</title>
-   <style>
-    /* -------------------------------------- */
-    /* NOVO: ANIMAÇÃO DE PISCAR (FLASH) */
-    /* -------------------------------------- */
-    @keyframes red-flash {
-        0% { background-color: rgba(220, 53, 69, 0.95); } /* Vermelho escuro inicial */
-        50% { background-color: rgba(255, 0, 0, 1.0); } /* Vermelho vivo (flash) */
-        100% { background-color: rgba(220, 53, 69, 0.95); }
-    }
+    <style>
+        /* -------------------------------------- */
+        /* NOVO: ANIMAÇÃO DE PISCAR (FLASH) */
+        /* -------------------------------------- */
+        @keyframes red-flash {
+            0% { background-color: rgba(220, 53, 69, 0.95); } /* Vermelho escuro inicial */
+            50% { background-color: rgba(255, 0, 0, 1.0); } /* Vermelho vivo (flash) */
+            100% { background-color: rgba(220, 53, 69, 0.95); }
+        }
 
-    #block-overlay.flashing {
-        animation: red-flash 0.5s infinite alternate; /* Aplica o piscar */
-    }
+        #block-overlay.flashing {
+            animation: red-flash 0.5s infinite alternate; /* Aplica o piscar */
+        }
 
-    /* Adição de estilo de segurança */
-    #block-overlay {
-        /* O estilo inline já contém a maior parte, mas garantimos o z-index */
-        z-index: 1000; 
-        cursor: not-allowed;
-    }
-    #unlock-button:hover {
-        background-color: #218838 !important;
-    }
+        /* Adição de estilo de segurança */
+        #block-overlay {
+            z-index: 1000; 
+            cursor: not-allowed;
+        }
+        #unlock-button:hover {
+            background-color: #218838 !important;
+        }
 
-    /* CSS BÁSICO PARA O ESTILO SOLOLEARN */
-    body { 
-        font-family: Arial, sans-serif; 
-        background-color: #f0f0f0; 
-        color: #333; 
-        margin: 0; 
-        padding: 20px; 
-    }
-    .quiz-container { max-width: 800px; margin: 40px auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-    h1 { color: #0056b3; text-align: center; margin-bottom: 25px; } 
-    h2 { color: #007bff; margin-bottom: 20px; }
-    .header-section { text-align: center; margin-bottom: 30px; }
-    .header-section img { max-width: 150px; height: auto; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-    .question-box { margin-bottom: 25px; padding: 15px; border: 1px solid #ddd; border-radius: 6px; }
-    .option { display: block; background: #f9f9f9; padding: 10px; margin-top: 10px; border-radius: 4px; cursor: pointer; transition: background 0.2s; }
-    .option:hover { background: #e0f0ff; }
-    .result-screen { text-align: center; }
-    button { padding: 10px 15px; background-color: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; margin-top: 20px; }
-    button:hover { background-color: #218838; }
-    button:disabled { background-color: #ccc; cursor: not-allowed; }
-    .input-field { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
-    .selected { background-color: #ffe4b2 !important; border: 2px solid #ff9900; } 
-    #confirm-button { background-color: #007bff; margin-left: 10px;}
-    #confirm-button:hover:not(:disabled) { background-color: #0056b3; }
-    #feedback { margin-top: 10px; font-weight: bold; }
-    .navigation-buttons { display: flex; justify-content: space-between; margin-top: 20px; }
-    .navigation-buttons button { margin: 0; }
-    #prev-button { background-color: #6c757d; }
-    #prev-button:hover:not(:disabled) { background-color: #5a6268; }
-</style>
+        /* CSS BÁSICO PARA O ESTILO DO QUIZ */
+        body { 
+            font-family: Arial, sans-serif; 
+            background-color: #f0f0f0; /* Cinza Claro */ 
+            color: #333; 
+            margin: 0; 
+            padding: 20px; 
+        }
+        .quiz-container { 
+            max-width: 800px; 
+            margin: 40px auto; 
+            background: #fff; /* Fundo do quiz container permanece branco para destaque */ 
+            padding: 30px; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+        }
+        h1 { color: #0056b3; text-align: center; margin-bottom: 25px; } 
+        h2 { color: #007bff; margin-bottom: 20px; }
+        .header-section { text-align: center; margin-bottom: 30px; }
+        .header-section img { max-width: 750px; height: auto; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .question-box { margin-bottom: 25px; padding: 15px; border: 1px solid #ddd; border-radius: 6px; }
+        .option { display: block; background: #f9f9f9; padding: 10px; margin-top: 10px; border-radius: 4px; cursor: pointer; transition: background 0.2s; }
+        .option:hover { background: #e0f0ff; }
+        .result-screen { text-align: center; }
+        button { padding: 10px 15px; background-color: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; margin-top: 20px; }
+        button:hover { background-color: #218838; }
+        button:disabled { background-color: #ccc; cursor: not-allowed; }
+        .input-field { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        .selected { background-color: #ffe4b2 !important; border: 2px solid #ff9900; } 
+        #confirm-button { background-color: #007bff; margin-left: 10px;}
+        #confirm-button:hover:not(:disabled) { background-color: #0056b3; }
+        #feedback { margin-top: 10px; font-weight: bold; }
+        .navigation-buttons { display: flex; justify-content: space-between; margin-top: 20px; }
+        .navigation-buttons button { margin: 0; }
+        #prev-button { background-color: #6c757d; }
+        #prev-button:hover:not(:disabled) { background-color: #5a6268; }
+    </style>
 </head>
 <body>
 
 <div id="block-overlay" style="
     position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
-    background-color: rgba(220, 53, 69, 0.95); /* Vermelho translúcido */
+    background-color: rgba(220, 53, 69, 0.95); 
     color: white; 
-    display: none; /* Inicialmente invisível */
+    display: none; 
     flex-direction: column; 
     justify-content: center; 
     align-items: center; 
@@ -112,10 +118,11 @@
 
 <script src="quiz.js"></script>
 <script>
-    // Carrega a imagem após o DOM carregar
+    // Configura a imagem do cabeçalho e inicia o quiz
     window.onload = function() {
         // Use uma imagem de base de dados mais adequada aqui, ou use a placeholder
-        document.getElementById('header-image').src = 'https://picsum.photos/id/1015/300/150'; 
+        document.getElementById('header-image').src = 'https://www.aceinfoway.com/blog/wp-content/uploads/2020/03/best-database-to-work-with-in-2020.jpg'; 
+        
         // Chama a função de quiz.js para iniciar
         if (typeof displayQuestion === 'function') {
             displayQuestion(); 
