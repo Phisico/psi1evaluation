@@ -1,1 +1,261 @@
-const _0x4ddd69=_0x3bfa;(function(_0x2bf7b1,_0x2a5114){const _0x108ac9=_0x3bfa,_0x4f498e=_0x2bf7b1();while(!![]){try{const _0x4dfcfd=-parseInt(_0x108ac9(0x127))/0x1*(parseInt(_0x108ac9(0xe8))/0x2)+-parseInt(_0x108ac9(0x124))/0x3*(parseInt(_0x108ac9(0xf8))/0x4)+parseInt(_0x108ac9(0xc9))/0x5+-parseInt(_0x108ac9(0x107))/0x6+-parseInt(_0x108ac9(0x12c))/0x7+parseInt(_0x108ac9(0xd1))/0x8+-parseInt(_0x108ac9(0xec))/0x9*(-parseInt(_0x108ac9(0xbb))/0xa);if(_0x4dfcfd===_0x2a5114)break;else _0x4f498e['push'](_0x4f498e['shift']());}catch(_0x247b31){_0x4f498e['push'](_0x4f498e['shift']());}}}(_0xd933,0xbe154));const GOOGLE_FORM_SUBMIT_URL=_0x4ddd69(0x121),NAME_FIELD_ID=_0x4ddd69(0xa0),SCORE_FIELD_ID=_0x4ddd69(0x103),SECRET_UNLOCK_CODE=_0x4ddd69(0xd9),questions=[{'question':_0x4ddd69(0x11e),'options':['Campo','Consulta','Registo',_0x4ddd69(0x102)],'answer':_0x4ddd69(0xb6),'studentAnswer':null},{'question':_0x4ddd69(0xc7),'options':[_0x4ddd69(0xf1),_0x4ddd69(0xb6),_0x4ddd69(0xd3),_0x4ddd69(0xda)],'answer':'Campo','studentAnswer':null},{'question':_0x4ddd69(0xdb),'options':['Os\x20dados\x20inseridos',_0x4ddd69(0xcd),_0x4ddd69(0xe9),'As\x20chaves\x20externas'],'answer':_0x4ddd69(0xcd),'studentAnswer':null},{'question':_0x4ddd69(0x11f),'options':[_0x4ddd69(0xf3),_0x4ddd69(0xb5),_0x4ddd69(0xcc),_0x4ddd69(0xb0)],'answer':_0x4ddd69(0xcc),'studentAnswer':null},{'question':_0x4ddd69(0xf7),'options':[_0x4ddd69(0x9f),'Dados\x20por\x20Omissão',_0x4ddd69(0x130),_0x4ddd69(0xf3)],'answer':_0x4ddd69(0x130),'studentAnswer':null},{'question':'A\x20Chave\x20Estrangeira\x20serve\x20para\x20estabelecer\x20uma...','options':[_0x4ddd69(0xab),_0x4ddd69(0x10c),_0x4ddd69(0xa7),'Cópia\x20de\x20segurança'],'answer':_0x4ddd69(0x10c),'studentAnswer':null},{'question':_0x4ddd69(0x12f),'options':[_0x4ddd69(0xba),'Apenas\x20se\x20for\x20de\x20tipo\x20texto',_0x4ddd69(0xf5),_0x4ddd69(0x135)],'answer':_0x4ddd69(0xf5),'studentAnswer':null},{'question':_0x4ddd69(0xa5),'options':[_0x4ddd69(0x10d),'Na\x20tabela\x20do\x20lado\x20muitos',_0x4ddd69(0xd6),'Numa\x20tabela\x20de\x20junção'],'answer':_0x4ddd69(0xc0),'studentAnswer':null},{'question':'Qual\x20é\x20o\x20principal\x20objetivo\x20de\x20uma\x20Regra\x20de\x20Validação?','options':[_0x4ddd69(0xb9),_0x4ddd69(0x11b),_0x4ddd69(0xae),_0x4ddd69(0xbc)],'answer':'Garantir\x20a\x20precisão\x20e\x20consistência\x20dos\x20dados','studentAnswer':null},{'question':_0x4ddd69(0xa3),'options':[_0x4ddd69(0xc6),'<\x20100',_0x4ddd69(0xaa),_0x4ddd69(0xb8)],'answer':_0x4ddd69(0xaa),'studentAnswer':null},{'question':_0x4ddd69(0xcf),'options':['Quando\x20o\x20utilizador\x20clica\x20duas\x20vezes\x20no\x20campo',_0x4ddd69(0x108),_0x4ddd69(0x10f),'Após\x20a\x20submissão\x20do\x20formulário'],'answer':'Quando\x20um\x20novo\x20registo\x20é\x20criado\x20e\x20o\x20campo\x20não\x20é\x20preenchido','studentAnswer':null},{'question':_0x4ddd69(0x12e),'options':[_0x4ddd69(0x10e),_0x4ddd69(0xf6),'Quando\x20o\x20tipo\x20de\x20dados\x20é\x20incorreto','Ao\x20fechar\x20o\x20Access'],'answer':_0x4ddd69(0xf6),'studentAnswer':null},{'question':'Os\x20Formulários\x20são\x20usados\x20principalmente\x20para...','options':[_0x4ddd69(0xee),_0x4ddd69(0x12b),_0x4ddd69(0x114),'Automatizar\x20cálculos'],'answer':_0x4ddd69(0x114),'studentAnswer':null},{'question':_0x4ddd69(0xd0),'options':[_0x4ddd69(0x113),_0x4ddd69(0xb1),_0x4ddd69(0xbe),_0x4ddd69(0x116)],'answer':'Maior\x20segurança\x20e\x20controlo\x20sobre\x20a\x20entrada\x20de\x20dados','studentAnswer':null},{'question':_0x4ddd69(0xfa),'options':[_0x4ddd69(0xe1),'As\x20regras\x20de\x20validação',_0x4ddd69(0x110),_0x4ddd69(0xb3)],'answer':_0x4ddd69(0x110),'studentAnswer':null},{'question':_0x4ddd69(0x133),'options':['Alterar\x20dados\x20permanentemente','Filtrar,\x20ordenar\x20e\x20resumir\x20dados',_0x4ddd69(0xce),_0x4ddd69(0xfc)],'answer':_0x4ddd69(0xef),'studentAnswer':null},{'question':_0x4ddd69(0xac),'options':[_0x4ddd69(0x125),_0x4ddd69(0xdd),_0x4ddd69(0x11d),_0x4ddd69(0x12a)],'answer':'Critérios\x20(Criteria)','studentAnswer':null},{'question':_0x4ddd69(0xcb),'options':[_0x4ddd69(0xf1),'Formulário',_0x4ddd69(0x126),_0x4ddd69(0xb0)],'answer':_0x4ddd69(0xb0),'studentAnswer':null},{'question':_0x4ddd69(0xe0),'options':[_0x4ddd69(0xff),_0x4ddd69(0x109),_0x4ddd69(0xdf),'Inserir\x20novos\x20registos'],'answer':'Apresentar\x20e\x20imprimir\x20dados\x20de\x20forma\x20formatada\x20e\x20organizada','studentAnswer':null},{'question':_0x4ddd69(0xc5),'options':[_0x4ddd69(0xaf),_0x4ddd69(0x132),_0x4ddd69(0xfe),'Detalhe'],'answer':_0x4ddd69(0x132),'studentAnswer':null}];let currentQuestionIndex=0x0,currentSelectedOption=null,isTestBlocked=![];const quizDiv=document[_0x4ddd69(0xd7)](_0x4ddd69(0xa2)),resultsDiv=document['getElementById'](_0x4ddd69(0xc3)),scoreDisplay=document[_0x4ddd69(0xd7)](_0x4ddd69(0xc2)),submitMessage=document['getElementById']('submit-message'),blockOverlay=document[_0x4ddd69(0xd7)](_0x4ddd69(0xe6)),unlockButton=document[_0x4ddd69(0xd7)]('unlock-button'),unlockCodeInput=document[_0x4ddd69(0xd7)](_0x4ddd69(0x117)),unlockFeedback=document['getElementById']('unlock-feedback');function blockTest(){const _0xdcedc6=_0x4ddd69;currentQuestionIndex<questions['length']&&(isTestBlocked=!![],blockOverlay[_0xdcedc6(0xed)]['display']=_0xdcedc6(0xd5),blockOverlay[_0xdcedc6(0x104)]['add'](_0xdcedc6(0xdc)),document[_0xdcedc6(0x101)][_0xdcedc6(0xed)][_0xdcedc6(0xb7)]=_0xdcedc6(0xa9),unlockCodeInput[_0xdcedc6(0x10b)]='',unlockFeedback[_0xdcedc6(0x12d)]='',unlockCodeInput[_0xdcedc6(0x10a)]());}function attemptUnlock(){const _0x2db98e=_0x4ddd69,_0x11e6c5=unlockCodeInput[_0x2db98e(0x10b)][_0x2db98e(0xde)]();_0x11e6c5===SECRET_UNLOCK_CODE?unlockTest():(unlockFeedback[_0x2db98e(0x12d)]=_0x2db98e(0xad),unlockCodeInput[_0x2db98e(0x10b)]='',unlockCodeInput[_0x2db98e(0x10a)]());}function unlockTest(){const _0x2fe319=_0x4ddd69;isTestBlocked=![],blockOverlay[_0x2fe319(0x104)][_0x2fe319(0xfd)](_0x2fe319(0xdc)),blockOverlay['style']['display']='none',document['body']['style']['overflow']='',unlockCodeInput[_0x2fe319(0x10b)]='',unlockFeedback[_0x2fe319(0x12d)]='',displayQuestion();}function setupFocusDetection(){const _0x304893=_0x4ddd69;window[_0x304893(0xfb)](_0x304893(0xd8),blockTest),unlockButton[_0x304893(0xfb)](_0x304893(0xa4),attemptUnlock),unlockCodeInput[_0x304893(0xfb)](_0x304893(0x128),function(_0x509b30){const _0x565aa2=_0x304893;_0x509b30[_0x565aa2(0x106)]===_0x565aa2(0xd4)&&(_0x509b30[_0x565aa2(0xe3)](),attemptUnlock());});}function displayQuestion(){const _0x36e676=_0x4ddd69;if(isTestBlocked){blockTest();return;}if(currentQuestionIndex>=questions['length']){calculateFinalScore(),showResults();return;}const _0x12530d=questions[currentQuestionIndex];currentSelectedOption=_0x12530d[_0x36e676(0x115)];let _0x1f1a42=_0x36e676(0x120)+(currentQuestionIndex+0x1)+_0x36e676(0x136)+questions[_0x36e676(0x112)]+'</h4>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p><strong>'+_0x12530d[_0x36e676(0x105)]+'</strong></p>\x0a\x20\x20\x20\x20';_0x12530d[_0x36e676(0xea)]['forEach'](_0x3394d9=>{const _0x2e0225=_0x36e676,_0x2aa150=_0x3394d9===_0x12530d[_0x2e0225(0x115)]?_0x2e0225(0xc1):'';_0x1f1a42+=_0x2e0225(0xc8)+_0x2aa150+_0x2e0225(0x100)+_0x3394d9+_0x2e0225(0xc4)+_0x3394d9+_0x2e0225(0xbd)+_0x3394d9+_0x2e0225(0xb2);});let _0x7fee06=currentQuestionIndex===questions[_0x36e676(0x112)]-0x1?_0x36e676(0x11c):_0x36e676(0x122);_0x1f1a42+=_0x36e676(0x134)+(currentQuestionIndex===0x0?_0x36e676(0xa1):'')+_0x36e676(0x118)+(!_0x12530d[_0x36e676(0x115)]?_0x36e676(0xa1):'')+'>'+_0x7fee06+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>',quizDiv['innerHTML']=_0x1f1a42;}function selectOption(_0x402750,_0x5280c2){const _0x33d145=_0x4ddd69;document[_0x33d145(0xf2)](_0x33d145(0xe5))[_0x33d145(0x11a)](_0x296c35=>{const _0x5c192f=_0x33d145;_0x296c35['classList'][_0x5c192f(0xfd)](_0x5c192f(0xc1));}),_0x402750[_0x33d145(0x104)][_0x33d145(0x119)](_0x33d145(0xc1)),currentSelectedOption=_0x5280c2,questions[currentQuestionIndex][_0x33d145(0x115)]=_0x5280c2,document[_0x33d145(0xd7)]('confirm-button')[_0x33d145(0xa1)]=![],document['getElementById'](_0x33d145(0xf9))[_0x33d145(0x12d)]='';}function confirmAnswer(){navigateQuestion(0x1);}function _0xd933(){const _0x589b65=['score','hidden','>\x200','Consulta\x20SQL','Se\x20quiser\x20ver\x20apenas\x20os\x20registos\x20do\x20Porto,\x20o\x20que\x20deve\x20usar\x20na\x20Consulta?','❌\x20Código\x20incorreto.\x20Tente\x20novamente.','Gerar\x20relatórios\x20automáticos','Cabeçalho\x20de\x20Página','Consulta','Maior\x20segurança\x20e\x20controlo\x20sobre\x20a\x20entrada\x20de\x20dados','</div>','Os\x20botões\x20de\x20navegação','none','Integridade','Registo','overflow','IS\x20NUMERIC','Aumentar\x20o\x20desempenho','Sim,\x20em\x20relações\x201:N','148690nPWnZP','Esconder\x20registos','\x27)\x22>','Possibilidade\x20de\x20criar\x20consultas','error','Na\x20tabela\x20do\x20lado\x20muitos','selected','score-display','results','\x22\x20onclick=\x22selectOption(this,\x20\x27','Num\x20Relatório,\x20qual\x20Secção\x20é\x20usada\x20para\x20exibir\x20totais\x20e\x20resumos\x20para\x20todo\x20o\x20documento?','NOT\x20NULL','Qual\x20o\x20nome\x20dado\x20a\x20uma\x20coluna\x20numa\x20Tabela\x20de\x20Access?','<div\x20class=\x22option\x20','4163115aGlygM','\x20registada\x20com\x20sucesso\x20para\x20','O\x20\x27cálculo\x27\x20de\x20um\x20novo\x20campo\x20(ex:\x20Preço\x20*\x201.23)\x20deve\x20ser\x20feito\x20em\x20qual\x20objeto?','Redundância','O\x20tipo\x20de\x20dados\x20de\x20cada\x20Campo','Criar\x20novas\x20tabelas','O\x20valor\x20\x27Dados\x20por\x20Omissão\x27\x20(Default\x20Value)\x20é\x20inserido...','Qual\x20a\x20Vantagem\x20principal\x20de\x20usar\x20um\x20formulário\x20em\x20vez\x20de\x20editar\x20diretamente\x20a\x20tabela?','6339880kykRmt','then','Campo\x20Chave','Enter','flex','Em\x20ambas\x20as\x20tabelas','getElementById','blur','a3379bc','Campo','O\x20que\x20é\x20que\x20a\x20Estrutura\x20(ou\x20Design\x20View)\x20de\x20uma\x20Tabela\x20define?','flashing','Critérios\x20(Criteria)','trim','Apresentar\x20e\x20imprimir\x20dados\x20de\x20forma\x20formatada\x20e\x20organizada','Qual\x20a\x20função\x20principal\x20de\x20um\x20Relatório\x20no\x20Access?','O\x20título\x20e\x20os\x20logótipos','block','preventDefault','querySelector','.option','block-overlay','student-name','54wqgFTb','Os\x20Relatórios\x20a\x20gerar','options','#results\x20button','1836DqKsAo','style','Análise\x20de\x20dados\x20complexa','Filtrar,\x20ordenar\x20e\x20resumir\x20dados','✅\x20Pontuação\x20de\x20','Tabela','querySelectorAll','Validação','append','Não,\x20nunca\x20pode\x20ser\x20nula','Quando\x20a\x20Regra\x20de\x20Validação\x20não\x20é\x20cumprida','O\x20que\x20define\x20a\x20unicidade\x20de\x20cada\x20linha\x20(registo)\x20numa\x20tabela?','143764oRqREH','feedback','No\x20Modo\x20de\x20Estrutura\x20de\x20um\x20Formulário,\x20o\x20que\x20representa\x20a\x20\x27Secção\x20de\x20Detalhe\x27?','addEventListener','Imprimir\x20relatórios','remove','Cabeçalho\x20de\x20Relatório','Recolher\x20dados\x20do\x20utilizador','\x22\x20data-value=\x22','body','Formulário','entry.656499958','classList','question','key','5705400nzeoZh','Quando\x20o\x20campo\x20fica\x20vazio','Analisar\x20as\x20relações\x20da\x20base\x20de\x20dados','focus','value','Relação\x20entre\x20Tabelas','Na\x20tabela\x20do\x20lado\x20um','Sempre\x20que\x20o\x20utilizador\x20clica\x20no\x20campo','Quando\x20um\x20novo\x20registo\x20é\x20criado\x20e\x20o\x20campo\x20não\x20é\x20preenchido','A\x20área\x20onde\x20os\x20dados\x20dos\x20registos\x20são\x20exibidos','Por\x20favor,\x20preencha\x20o\x20seu\x20nome.','length','Melhor\x20desempenho','Introdução\x20e\x20visualização\x20de\x20dados\x20amigável','studentAnswer','Geração\x20de\x20gráficos','unlock-code-input','>&lt;&lt;\x20Anterior</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22confirm-button\x22\x20onclick=\x22confirmAnswer()\x22\x20','add','forEach','Garantir\x20a\x20precisão\x20e\x20consistência\x20dos\x20dados','Confirmar\x20e\x20Terminar\x20Teste\x20>>','Um\x20Formulário','Qual\x20o\x20nome\x20dado\x20a\x20uma\x20linha\x20numa\x20Tabela\x20de\x20Access?','Uma\x20base\x20de\x20dados\x20bem\x20estruturada\x20minimiza\x20a...','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22question-box\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h4>Pergunta\x20','https://docs.google.com/forms/d/e/1FAIpQLSen6fYSguq2ryvKriyO0Hfvf5G4XG2T82CLFM1bUTLJijhe5g/formResponse','Confirmar\x20e\x20Próxima\x20>>','A\x20registar...','129WDKdYN','Um\x20Relatório','Relatório','16769sOKnZi','keydown','display','Uma\x20Chave\x20Estrangeira','Imprimir\x20dados\x20formatados','6514746nJojuT','textContent','Se\x20o\x20\x27Texto\x20de\x20Validação\x27\x20for\x20\x27Data\x20Inválida\x27,\x20quando\x20é\x20que\x20esta\x20mensagem\x20aparece?','Uma\x20Chave\x20Primária\x20pode\x20ser\x20nula\x20(vazia)?','Chave\x20Primária','Erro\x20ao\x20submeter:','Rodapé\x20de\x20Grupo','Qual\x20é\x20o\x20principal\x20propósito\x20de\x20uma\x20Consulta\x20de\x20Seleção\x20no\x20Access?','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22feedback\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22navigation-buttons\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22prev-button\x22\x20onclick=\x22navigateQuestion(-1)\x22\x20','Sim,\x20desde\x20que\x20a\x20tabela\x20esteja\x20vazia','\x20de\x20','Chave\x20Estrangeira','entry.2112855462','disabled','quiz','Qual\x20das\x20seguintes\x20regras\x20de\x20validação\x20impede\x20que\x20um\x20campo\x20\x27Idade\x27\x20receba\x20um\x20valor\x20negativo?','click','Numa\x20relação\x201:N\x20(um\x20para\x20muitos),\x20onde\x20se\x20deve\x20colocar\x20a\x20Chave\x20Estrangeira?','catch','Formatação\x20de\x20dados'];_0xd933=function(){return _0x589b65;};return _0xd933();}function navigateQuestion(_0x5772d6){if(isTestBlocked){blockTest();return;}currentQuestionIndex+=_0x5772d6;if(currentQuestionIndex<0x0)currentQuestionIndex=0x0;else{if(currentQuestionIndex>=questions['length']){calculateFinalScore(),showResults();return;}}displayQuestion();}function _0x3bfa(_0x56e16b,_0x1cc9cb){const _0xd93337=_0xd933();return _0x3bfa=function(_0x3bfaaa,_0x7abb1){_0x3bfaaa=_0x3bfaaa-0x9f;let _0x2a08b7=_0xd93337[_0x3bfaaa];return _0x2a08b7;},_0x3bfa(_0x56e16b,_0x1cc9cb);}function calculateFinalScore(){const _0x180470=_0x4ddd69;let _0x5938a8=0x0;questions[_0x180470(0x11a)](_0x3f0ff5=>{const _0x499afe=_0x180470;_0x3f0ff5[_0x499afe(0x115)]===_0x3f0ff5['answer']&&_0x5938a8++;}),window[_0x180470(0xa8)]=_0x5938a8;}function showResults(){const _0x1ffa9e=_0x4ddd69;quizDiv['style'][_0x1ffa9e(0x129)]=_0x1ffa9e(0xb4),resultsDiv[_0x1ffa9e(0xed)][_0x1ffa9e(0x129)]=_0x1ffa9e(0xe2),scoreDisplay['textContent']=window[_0x1ffa9e(0xa8)];}function submitResults(){const _0x2136d1=_0x4ddd69,_0x299c71=document['getElementById'](_0x2136d1(0xe7))[_0x2136d1(0x10b)][_0x2136d1(0xde)]();if(_0x299c71===''){submitMessage[_0x2136d1(0x12d)]=_0x2136d1(0x111);return;}const _0x5c7d9a=GOOGLE_FORM_SUBMIT_URL,_0xa295f3=new FormData();_0xa295f3[_0x2136d1(0xf4)](NAME_FIELD_ID,_0x299c71),_0xa295f3[_0x2136d1(0xf4)](SCORE_FIELD_ID,window[_0x2136d1(0xa8)]),submitMessage['textContent']=_0x2136d1(0x123),document[_0x2136d1(0xe4)](_0x2136d1(0xeb))[_0x2136d1(0xa1)]=!![],fetch(_0x5c7d9a,{'method':'POST','mode':'no-cors','body':_0xa295f3})[_0x2136d1(0xd2)](()=>{const _0x183697=_0x2136d1;submitMessage[_0x183697(0x12d)]=_0x183697(0xf0)+window[_0x183697(0xa8)]+_0x183697(0xca)+_0x299c71+'!',document[_0x183697(0xd7)]('student-name')[_0x183697(0xa1)]=!![];})[_0x2136d1(0xa6)](_0x5dcdcd=>{const _0x1830eb=_0x2136d1;console[_0x1830eb(0xbf)](_0x1830eb(0x131),_0x5dcdcd),submitMessage['textContent']='❌\x20Erro\x20ao\x20registar.\x20Tente\x20novamente\x20ou\x20informe\x20o\x20professor.',document[_0x1830eb(0xe4)](_0x1830eb(0xeb))['disabled']=![];});}setupFocusDetection();
+// --- DADOS DE SUBMISSÃO DO GOOGLE FORM ---
+const GOOGLE_FORM_SUBMIT_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSen6fYSguq2ryvKriyO0Hfvf5G4XG2T82CLFM1bUTLJijhe5g/formResponse';
+const NAME_FIELD_ID = 'entry.2112855462';
+const SCORE_FIELD_ID = 'entry.656499958';
+
+// --- CÓDIGO DE SEGURANÇA ---
+const SECRET_UNLOCK_CODE = 'a3379bc'; 
+
+// --- 1. CONJUNTO COMPLETO DE 20 PERGUNTAS ---
+const questions = [
+    // 4 Perguntas: Tabelas & Estrutura
+    { question: "Qual o nome dado a uma linha numa Tabela de Access?", options: ["Campo", "Consulta", "Registo", "Formulário"], answer: "Registo", studentAnswer: null },
+    { question: "Qual o nome dado a uma coluna numa Tabela de Access?", options: ["Tabela", "Registo", "Campo Chave", "Campo"], answer: "Campo", studentAnswer: null },
+    { question: "O que é que a Estrutura (ou Design View) de uma Tabela define?", options: ["Os dados inseridos", "O tipo de dados de cada Campo", "Os Relatórios a gerar", "As chaves externas"], answer: "O tipo de dados de cada Campo", studentAnswer: null },
+    { question: "Uma base de dados bem estruturada minimiza a...", options: ["Validação", "Integridade", "Redundância", "Consulta"], answer: "Redundância", studentAnswer: null },
+    
+    // 4 Perguntas: Chave Primária/Estrangeira
+    { question: "O que define a unicidade de cada linha (registo) numa tabela?", options: ["Chave Estrangeira", "Dados por Omissão", "Chave Primária", "Validação"], answer: "Chave Primária", studentAnswer: null },
+    { question: "A Chave Estrangeira serve para estabelecer uma...", options: ["Consulta SQL", "Relação entre Tabelas", "Formatação de dados", "Cópia de segurança"], answer: "Relação entre Tabelas", studentAnswer: null },
+    { question: "Uma Chave Primária pode ser nula (vazia)?", options: ["Sim, em relações 1:N", "Apenas se for de tipo texto", "Não, nunca pode ser nula", "Sim, desde que a tabela esteja vazia"], answer: "Não, nunca pode ser nula", studentAnswer: null },
+    { question: "Numa relação 1:N (um para muitos), onde se deve colocar a Chave Estrangeira?", options: ["Na tabela do lado um", "Na tabela do lado muitos", "Em ambas as tabelas", "Numa tabela de junção"], answer: "Na tabela do lado muitos", studentAnswer: null },
+
+    // 4 Perguntas: Dados por Omissão e Validação
+    { question: "Qual é o principal objetivo de uma Regra de Validação?", options: ["Aumentar o desempenho", "Garantir a precisão e consistência dos dados", "Gerar relatórios automáticos", "Esconder registos"], answer: "Garantir a precisão e consistência dos dados", studentAnswer: null },
+    { question: "Qual das seguintes regras de validação impede que um campo 'Idade' receba um valor negativo?", options: ["NOT NULL", "< 100", "> 0", "IS NUMERIC"], answer: "> 0", studentAnswer: null },
+    { question: "O valor 'Dados por Omissão' (Default Value) é inserido...", options: ["Quando o utilizador clica duas vezes no campo", "Quando o campo fica vazio", "Quando um novo registo é criado e o campo não é preenchido", "Após a submissão do formulário"], answer: "Quando um novo registo é criado e o campo não é preenchido", studentAnswer: null },
+    { question: "Se o 'Texto de Validação' for 'Data Inválida', quando é que esta mensagem aparece?", options: ["Sempre que o utilizador clica no campo", "Quando a Regra de Validação não é cumprida", "Quando o tipo de dados é incorreto", "Ao fechar o Access"], answer: "Quando a Regra de Validação não é cumprida", studentAnswer: null },
+    
+    // 3 Perguntas: Formulários
+    { question: "Os Formulários são usados principalmente para...", options: ["Análise de dados complexa", "Imprimir dados formatados", "Introdução e visualização de dados amigável", "Automatizar cálculos"], answer: "Introdução e visualização de dados amigável", studentAnswer: null },
+    { question: "Qual a Vantagem principal de usar um formulário em vez de editar diretamente a tabela?", options: ["Melhor desempenho", "Maior segurança e controlo sobre a entrada de dados", "Possibilidade de criar consultas", "Geração de gráficos"], answer: "Maior segurança e controlo sobre a entrada de dados", studentAnswer: null },
+    { question: "No Modo de Estrutura de um Formulário, o que representa a 'Secção de Detalhe'?", options: ["O título e os logótipos", "As regras de validação", "A área onde os dados dos registos são exibidos", "Os botões de navegação"], answer: "A área onde os dados dos registos são exibidos", studentAnswer: null },
+
+    // 3 Perguntas: Consultas (Queries)
+    { question: "Qual é o principal propósito de uma Consulta de Seleção no Access?", options: ["Alterar dados permanentemente", "Filtrar, ordenar e resumir dados", "Criar novas tabelas", "Imprimir relatórios"], answer: "Filtrar, ordenar e resumir dados", studentAnswer: null },
+    { question: "Se quiser ver apenas os registos do Porto, o que deve usar na Consulta?", options: ["Um Relatório", "Critérios (Criteria)", "Um Formulário", "Uma Chave Estrangeira"], answer: "Critérios (Criteria)", studentAnswer: null },
+    { question: "O 'cálculo' de um novo campo (ex: Preço * 1.23) deve ser feito em qual objeto?", options: ["Tabela", "Formulário", "Relatório", "Consulta"], answer: "Consulta", studentAnswer: null },
+
+    // 2 Perguntas: Relatórios
+    { question: "Qual a função principal de um Relatório no Access?", options: ["Recolher dados do utilizador", "Analisar as relações da base de dados", "Apresentar e imprimir dados de forma formatada e organizada", "Inserir novos registos"], answer: "Apresentar e imprimir dados de forma formatada e organizada", studentAnswer: null },
+    { question: "Num Relatório, qual Secção é usada para exibir totais e resumos para todo o documento?", options: ["Cabeçalho de Página", "Rodapé de Grupo", "Cabeçalho de Relatório", "Detalhe"], answer: "Rodapé de Grupo", studentAnswer: null }
+];
+
+// --- VARIÁVEIS DE ESTADO E SEGURANÇA ---
+let currentQuestionIndex = 0;
+let currentSelectedOption = null; 
+let isTestBlocked = false; // Estado do bloqueio
+
+const quizDiv = document.getElementById('quiz');
+const resultsDiv = document.getElementById('results');
+const scoreDisplay = document.getElementById('score-display');
+const submitMessage = document.getElementById('submit-message');
+
+const blockOverlay = document.getElementById('block-overlay');
+const unlockButton = document.getElementById('unlock-button');
+const unlockCodeInput = document.getElementById('unlock-code-input');
+const unlockFeedback = document.getElementById('unlock-feedback');
+
+// --- FUNÇÕES DE SEGURANÇA ---
+
+/**
+ * Bloqueia o teste, tornando a overlay visível e iniciando o flash.
+ */
+function blockTest() {
+    // Bloqueia apenas se o teste estiver a decorrer (ainda não terminou)
+    if (currentQuestionIndex < questions.length) { 
+        isTestBlocked = true;
+        blockOverlay.style.display = 'flex';
+        // Adiciona a classe para iniciar a animação de flash
+        blockOverlay.classList.add('flashing'); 
+        document.body.style.overflow = 'hidden'; 
+        // Limpa e foca o campo para o professor
+        unlockCodeInput.value = '';
+        unlockFeedback.textContent = '';
+        unlockCodeInput.focus();
+    }
+}
+
+/**
+ * Tenta desbloquear o teste usando o código.
+ */
+function attemptUnlock() {
+    const enteredCode = unlockCodeInput.value.trim();
+    
+    if (enteredCode === SECRET_UNLOCK_CODE) {
+        unlockTest();
+    } else {
+        unlockFeedback.textContent = '❌ Código incorreto. Tente novamente.';
+        unlockCodeInput.value = ''; // Limpa o campo
+        unlockCodeInput.focus();
+    }
+}
+
+/**
+ * Desbloqueia o teste (chamado por attemptUnlock se o código for correto).
+ */
+function unlockTest() {
+    isTestBlocked = false;
+    // Remove a classe para parar a animação
+    blockOverlay.classList.remove('flashing'); 
+    blockOverlay.style.display = 'none';
+    document.body.style.overflow = '';
+    unlockCodeInput.value = '';
+    unlockFeedback.textContent = '';
+    // Recarrega a questão atual para garantir que o estado visual é restaurado
+    displayQuestion(); 
+}
+
+/**
+ * Configura os event listeners para detetar perda de foco e o desbloqueio.
+ */
+function setupFocusDetection() {
+    // 1. EVENTO DE PERDA DE FOCO (Sair da aba/janela)
+    window.addEventListener('blur', blockTest);
+
+    // 2. AÇÃO DE DESBLOQUEIO MANUAL (Botão "DESBLOQUEAR")
+    unlockButton.addEventListener('click', attemptUnlock);
+    
+    // 3. Permite desbloqueio via tecla Enter no campo de código
+    unlockCodeInput.addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            event.preventDefault(); 
+            attemptUnlock();
+        }
+    });
+}
+
+// --- 2. FUNÇÕES DE LÓGICA DO TESTE ---
+
+function displayQuestion() {
+    // Verifica e impõe o bloqueio se estiver ativo
+    if (isTestBlocked) {
+        blockTest();
+        return;
+    }
+
+    if (currentQuestionIndex >= questions.length) {
+        calculateFinalScore();
+        showResults();
+        return;
+    }
+
+    const q = questions[currentQuestionIndex];
+    currentSelectedOption = q.studentAnswer;
+
+    let html = `
+        <div class="question-box">
+            <h4>Pergunta ${currentQuestionIndex + 1} de ${questions.length}</h4>
+            <p><strong>${q.question}</strong></p>
+    `;
+    
+    q.options.forEach(option => {
+        const isSelected = option === q.studentAnswer ? 'selected' : '';
+        html += `<div class="option ${isSelected}" data-value="${option}" onclick="selectOption(this, '${option}')">${option}</div>`;
+    });
+
+    let confirmButtonText = (currentQuestionIndex === questions.length - 1) ? 
+        'Confirmar e Terminar Teste >>' : 
+        'Confirmar e Próxima >>';
+
+    html += `</div>
+        <div id="feedback"></div>
+        <div class="navigation-buttons">
+            <button id="prev-button" onclick="navigateQuestion(-1)" ${currentQuestionIndex === 0 ? 'disabled' : ''}>&lt;&lt; Anterior</button>
+            <button id="confirm-button" onclick="confirmAnswer()" ${!q.studentAnswer ? 'disabled' : ''}>${confirmButtonText}</button>
+        </div>`;
+        
+    quizDiv.innerHTML = html;
+}
+
+function selectOption(element, value) {
+    document.querySelectorAll('.option').forEach(opt => {
+        opt.classList.remove('selected');
+    });
+    
+    element.classList.add('selected');
+    currentSelectedOption = value;
+
+    questions[currentQuestionIndex].studentAnswer = value;
+    
+    document.getElementById('confirm-button').disabled = false;
+    
+    document.getElementById('feedback').textContent = '';
+}
+
+function confirmAnswer() {
+    navigateQuestion(1);
+}
+
+function navigateQuestion(step) {
+    // Verifica bloqueio antes de avançar/retroceder
+    if (isTestBlocked) {
+        blockTest();
+        return;
+    }
+    
+    currentQuestionIndex += step;
+    
+    if (currentQuestionIndex < 0) {
+        currentQuestionIndex = 0;
+    } else if (currentQuestionIndex >= questions.length) {
+        calculateFinalScore();
+        showResults();
+        return;
+    }
+    
+    displayQuestion();
+}
+
+function calculateFinalScore() {
+    let finalScore = 0;
+    questions.forEach(q => {
+        if (q.studentAnswer === q.answer) {
+            finalScore++;
+        }
+    });
+    window.score = finalScore;
+}
+
+function showResults() {
+    quizDiv.style.display = 'none';
+    resultsDiv.style.display = 'block';
+    scoreDisplay.textContent = window.score;
+}
+
+function submitResults() {
+    const name = document.getElementById('student-name').value.trim();
+    if (name === "") {
+        submitMessage.textContent = "Por favor, preencha o seu nome.";
+        return;
+    }
+    
+    const finalSubmitURL = GOOGLE_FORM_SUBMIT_URL; 
+    
+    const data = new FormData();
+    data.append(NAME_FIELD_ID, name);
+    data.append(SCORE_FIELD_ID, window.score); 
+    
+    submitMessage.textContent = "A registar...";
+    document.querySelector('#results button').disabled = true;
+
+    fetch(finalSubmitURL, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: data
+    })
+    .then(() => {
+        submitMessage.textContent = `✅ Pontuação de ${window.score} registada com sucesso para ${name}!`;
+        document.getElementById('student-name').disabled = true;
+    })
+    .catch(error => {
+        console.error('Erro ao submeter:', error);
+        submitMessage.textContent = "❌ Erro ao registar. Tente novamente ou informe o professor.";
+        document.querySelector('#results button').disabled = false;
+    });
+}
+
+// --- 3. INICIALIZAÇÃO ---
+setupFocusDetection(); 
+// NOTA: A chamada displayQuestion() deve ser gerida pelo script inline no index.html 
+// para coordenar com o carregamento da imagem de cabeçalho.
